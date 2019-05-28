@@ -13,47 +13,43 @@ public class Tour {
     /**
      * Default title for the word
      */
-    private String mDefaultPlace;
+    private int mDefaultPlace;
     /**
      * address for the word
      */
-    private String mPlaceLocal;
+    private int mPlaceLocal;
 
-   // private String mAddress;
+    // private String mAddress;
     /**
      * Image resource ID for the word
      */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
 
-    public Tour(String defaultPlace, String placeLocal, String address) {
+    public Tour(int defaultPlace, int placeLocal, int imageResourceId) {
         mDefaultPlace = defaultPlace;
         mPlaceLocal = placeLocal;
-       // mAddress = address;
+        // mAddress = address;
     }
 
 
-    public Tour(String defaultPlace, String placeLocal, int imageResourceId) {
-        mDefaultPlace = defaultPlace;
-        mPlaceLocal = placeLocal;
-        mImageResourceId = imageResourceId;
-       // mAddress = getAddress();
-    }
 
-    public Tour(int number_one, int ic_action_achievement) {
-    }
+        // mAddress = getAddress();
+
+
+
 
     /**
      * Get the default place
      */
-    public String getmDefaultPlace() {
+    public int getmDefaultPlace() {
         return mDefaultPlace;
     }
 
     /**
      * Get the local.
      */
-    public String getmPlaceLocal() {
+    public int getmPlaceLocal() {
         return mPlaceLocal;
     }
 
@@ -65,7 +61,7 @@ public class Tour {
     }
 
     //public String getAddress() {
-        //return mAddress;
+    //return mAddress;
     //}
 
     /**
