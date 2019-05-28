@@ -1,11 +1,14 @@
 package android.example.gilbert;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 public class BarsFragment extends Fragment {
@@ -22,11 +25,9 @@ public class BarsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.string.placeLocal,R.string.defaultPlace, R.drawable.riparian));
-        //tour.add(new Tour(R.string.Riparian_Preserve_address, R.string.placeLocal, R.drawable.riparian,R.string.defaultPlace));
-        //tour.add(new Tour("Title", "Dierks Bently's Whiskey Row", R.drawable.baseline_local_bar_black_24dp));
-        //tour.add(new Tour("Title", "Brass Tap", R.drawable.baseline_local_bar_black_24dp));
-        //add(new Tour("Title", "Copper Still Moonshine Grill", R.drawable.baseline_local_bar_black_24dp));
+        tour.add(new Tour("Title", "Dierks Bently's Whiskey Row", R.drawable.baseline_local_bar_black_24dp));
+        tour.add(new Tour("Title", "Brass Tap", R.drawable.baseline_local_bar_black_24dp));
+        tour.add(new Tour("Title", "Copper Still Moonshine Grill", R.drawable.baseline_local_bar_black_24dp));
 
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_attractions);
