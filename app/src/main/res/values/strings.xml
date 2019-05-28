@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Gilbert</string>
+    <!-- Category name for fragments [CHAR LIMIT=20] -->
+    <string name="category_attractions">Attractions</string>
+    <string name="category_bars">Bars</string>
+    <string name="category_eats">Eats</string>
+    <string name="category_hotels">Hotels</string>
+
+
+
+    <!--Eats Places -->
+    <string name="Filibertos">Filibertos</string>
+    <string name="Filibertos_address">1212 Williamsfield Rd, Gilbert 85233</string>
+    <string name="Cuisine">Mexican</string>
+
+    <string name="placeLocal">Topo</string>
+    <string name="defaultPlace">301 N Gilbert Rd Bldg 2, Gilbert, AZ 85234</string>
+    <string name="StreetFood">StreetFood</string>
+
+    <string name="Pomo">Pomo</string>
+    <string name="Pomo_address">366 N Gilbert Rd #106, Gilbert, AZ 85234</string>
+    <string name="Pizza">Pizza</string>
+
+    <string name="Lolos_Chicken_and_Waffles">Lolo’s Chicken and Waffles</string>
+    <string name="Lolos_Chicken_and_Waffles_address">366 N Gilbert Rd, Gilbert, AZ 85234</string>
+    <string name="Chicken">Chicken</string>
+
+    <!--bars -->
+    <string name="Dierks">Dierks </string>
+    <string name="Dierks_address">323 N Gilbert Rd, Gilbert, AZ 85234</string>
+    <string name="country">country</string>
+
+    <string name="Brass_Tap">Brass Tap </string>
+    <string name="Brass_tap_address">313 N Gilbert Rd, Gilbert, AZ 85234</string>
+    <string name="Beer">beer</string>
+
+    <string name="Copper_Still_Moonshine_Grill">Copper Still Moonshine Grill</string>
+    <string name="Copper_Still_Moonshine_Grill_Address">323 N Gilbert Rd, Gilbert, AZ 85234</string>
+    <string name="Whiskey">whiskey</string>
+
+    <string name="Champions_Sports_Saloon">Champions Sports Saloon</string>
+    <string name="Champions_Sports_Saloon_address">211 N Gilbert Rd, Gilbert, AZ 85234</string>
+    <string name="Pub">pub</string>
+
+    <!--hotels -->
+    <string name="Home2_Suites">Home2 Suites </string>
+    <string name="Home2_address">3333 S Market St, Gilbert, AZ 85297</string>
+
+
+    <string name="Hampton_Inn">Hampton Inn</string>
+    <string name="Hampton_Inn_address">3265 S Market St, Gilbert, AZ 85297</string>
+
+
+    <string name="Hyatt">Hyatt </string>
+    <string name="Hyatt_Address">3275 S Market St, Gilbert, AZ 85297</string>
+
+
+    <string name="DoubleTree">DoubleTree</string>
+    <string name="DoubleTree_address">1800 S Santan Village Pkwy, Gilbert, AZ 85295</string>
+
+
+
+    <!--Attractions -->
+    <string name="Riparian_Preserve">Riparian Preserve</string>
+    <string name="Riparian_Preserve_address">2757 E Guadalupe Rd, Gilbert, AZ 85234</string>
+    <string name="Nature_preserve">Nature preserve</string>
+
+    <string name="Water_Tower">Water Tower</string>
+    <string name="Water_Tower_address">45 W Page Ave, Gilbert, AZ 85233</string>
+    <string name="Historic_water_tower">Historic water tower</string>
+
+    <string name="Hale_Centre_Theatre">Hale Centre Theatre</string>
+    <string name="Hale_Centre_Theatre_address">50 W Page Ave, Gilbert, AZ 85233</string>
+    <string name="Theater_in_the_round">Theater in the round</string>
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Vocabulary word for the number one [CHAR LIMIT=20] -->
+    <string name="number_one">one</string>
+</resources>
+
