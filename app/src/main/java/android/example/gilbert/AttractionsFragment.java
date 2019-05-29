@@ -22,12 +22,12 @@ public class AttractionsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
-                R.drawable.riparian));
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
-                R.drawable.hale));
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+        tour.add(new Tour(R.string.Water_Tower, R.string.Water_Tower_address,
                 R.drawable.watertower));
+        tour.add(new Tour(R.string.Hale_Centre_Theatre, R.string.Hale_Centre_Theatre_address,
+                R.drawable.hale));
+        tour.add(new Tour(R.string.Riparian_Preserve, R.string.Riparian_Preserve_address,
+                R.drawable.riparian));
 
 
         //Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The

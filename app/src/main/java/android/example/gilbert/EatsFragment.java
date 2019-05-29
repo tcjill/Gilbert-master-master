@@ -25,12 +25,12 @@ public class EatsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
-                R.drawable.riparian));
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
-                R.drawable.hale));
-        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
-                R.drawable.watertower));
+        tour.add(new Tour(R.string.Filibertos, R.string.Filibertos_address,
+                R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Topo, R.string.Topo_address,
+                R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Pomo, R.string.Pomo_address,
+                R.drawable.baseline_local_dining_black_24dp));
        // tour.add(new Tour("Title", "Filibertos", R.drawable.baseline_local_dining_black_24dp));;
         //tour.add(new Tour("Title", "Topo", R.drawable.baseline_local_dining_black_24dp));
        // tour.add(new Tour("Title", "Pomo text", R.drawable.baseline_local_dining_black_24dp));

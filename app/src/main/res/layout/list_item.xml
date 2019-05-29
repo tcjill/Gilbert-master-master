@@ -23,10 +23,13 @@
         android:paddingLeft="16dp">
 
         <TextView
-            android:id="@+id/miwok_text_view"
+            android:id="@+id/place"
             android:layout_width="match_parent"
             android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
             android:layout_weight="1"
+            android:text="@string/Topo"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/black"
@@ -34,11 +37,13 @@
             tools:text="Gilbert" />
 
         <TextView
-            android:id="@+id/default_text_view"
+            android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_below="@id/miwok_text_view"
+            android:layout_below="@id/place"
+            android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:text="@string/Topo_address"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"

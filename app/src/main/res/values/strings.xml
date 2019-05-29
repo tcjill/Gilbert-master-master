@@ -13,8 +13,8 @@
     <string name="Filibertos_address">1212 Williamsfield Rd, Gilbert 85233</string>
     <string name="Cuisine">Mexican</string>
 
-    <string name="placeLocal">Topo</string>
-    <string name="defaultPlace">301 N Gilbert Rd Bldg 2, Gilbert, AZ 85234</string>
+    <string name="Topo">Topo</string>
+    <string name="Topo_address">301 N Gilbert Rd Bldg 2, Gilbert, AZ 85234</string>
     <string name="StreetFood">StreetFood</string>
 
     <string name="Pomo">Pomo</string>
