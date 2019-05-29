@@ -26,9 +26,10 @@ public class Tour {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
 
-    public Tour(String defaultPlace, String placeLocal, String address) {
+    public Tour(String defaultPlace, String placeLocal) {
         mDefaultPlace = defaultPlace;
         mPlaceLocal = placeLocal;
+
         // mAddress = address;
     }
 

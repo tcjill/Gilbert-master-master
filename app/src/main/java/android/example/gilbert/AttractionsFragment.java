@@ -23,10 +23,11 @@ public class AttractionsFragment extends Fragment {
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour("Title", "Riparian", R.drawable.riparian));
-        tour.add(new Tour("Title", "Water Tower", R.drawable.watertower));
         tour.add(new Tour("Title", "Hale Centre Theatre", R.drawable.hale));
+        tour.add(new Tour("Title", "WaterTower", R.drawable.watertower));
 
-        // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
+
+        //Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_attractions);
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
