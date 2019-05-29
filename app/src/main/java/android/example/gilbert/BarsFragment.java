@@ -25,9 +25,15 @@ public class BarsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour("Title", "Dierks Bently's Whiskey Row", R.drawable.baseline_local_bar_black_24dp));
-        tour.add(new Tour("Title", "Brass Tap", R.drawable.baseline_local_bar_black_24dp));
-        tour.add(new Tour("Title", "Copper Still Moonshine Grill", R.drawable.baseline_local_bar_black_24dp));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.riparian));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.hale));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.watertower));
+       // tour.add(new Tour("Title", "Dierks Bently's Whiskey Row", R.drawable.baseline_local_bar_black_24dp));
+        //tour.add(new Tour("Title", "Brass Tap", R.drawable.baseline_local_bar_black_24dp));
+       // tour.add(new Tour("Title", "Copper Still Moonshine Grill", R.drawable.baseline_local_bar_black_24dp));
 
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_attractions);

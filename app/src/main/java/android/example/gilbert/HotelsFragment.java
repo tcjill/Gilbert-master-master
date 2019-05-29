@@ -21,10 +21,16 @@ public class HotelsFragment extends Fragment {
                              Bundle savedInstanceState) { View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour("Title", "Home2 Suites by Hilton", R.drawable.baseline_hotel_black_24dp));;
-        tour.add(new Tour("Title", "Hampton Inn & Suites", R.drawable.baseline_hotel_black_24dp));
-        tour.add(new Tour("Title", "Hyatt Place", R.drawable.baseline_hotel_black_24dp));
-        tour.add(new Tour("Title", "DoubleTree", R.drawable.baseline_hotel_black_24dp));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.riparian));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.hale));
+        tour.add(new Tour(R.string.defaultPlace, R.string.placeLocal,
+                R.drawable.watertower));
+       // tour.add(new Tour("Title", "Home2 Suites by Hilton", R.drawable.baseline_hotel_black_24dp));;
+       // tour.add(new Tour("Title", "Hampton Inn & Suites", R.drawable.baseline_hotel_black_24dp));
+       // tour.add(new Tour("Title", "Hyatt Place", R.drawable.baseline_hotel_black_24dp));
+       // tour.add(new Tour("Title", "DoubleTree", R.drawable.baseline_hotel_black_24dp));
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
