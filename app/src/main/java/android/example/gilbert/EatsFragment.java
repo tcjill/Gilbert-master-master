@@ -1,14 +1,11 @@
 package android.example.gilbert;
 
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 public class EatsFragment extends Fragment {
@@ -31,11 +28,15 @@ public class EatsFragment extends Fragment {
                 R.drawable.baseline_local_dining_black_24dp));
         tour.add(new Tour(R.string.Pomo, R.string.Pomo_address,
                 R.drawable.baseline_local_dining_black_24dp));
-       // tour.add(new Tour("Title", "Filibertos", R.drawable.baseline_local_dining_black_24dp));;
-        //tour.add(new Tour("Title", "Topo", R.drawable.baseline_local_dining_black_24dp));
-       // tour.add(new Tour("Title", "Pomo text", R.drawable.baseline_local_dining_black_24dp));
-      //  tour.add(new Tour("Title", "The Novelist", R.drawable.baseline_local_dining_black_24dp));
-      //  tour.add(new Tour("Title", "Lolo's Chicken and Waffles", R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Lolos_Chicken_and_Waffles, R.string.Lolos_Chicken_and_Waffles_address,
+                R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Yaos, R.string.Yaos_address,
+                R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Sushiya, R.string.Sushiya_address,
+                R.drawable.baseline_local_dining_black_24dp));
+        tour.add(new Tour(R.string.Zinberger, R.string.Zin_address,
+                R.drawable.baseline_local_dining_black_24dp));
+
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

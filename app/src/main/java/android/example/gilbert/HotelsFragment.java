@@ -27,10 +27,6 @@ public class HotelsFragment extends Fragment {
                 R.drawable.baseline_hotel_black_24dp));
         tour.add(new Tour(R.string.Hyatt, R.string.Hyatt_Address,
                 R.drawable.baseline_hotel_black_24dp));
-       // tour.add(new Tour("Title", "Home2 Suites by Hilton", R.drawable.baseline_hotel_black_24dp));;
-       // tour.add(new Tour("Title", "Hampton Inn & Suites", R.drawable.baseline_hotel_black_24dp));
-       // tour.add(new Tour("Title", "Hyatt Place", R.drawable.baseline_hotel_black_24dp));
-       // tour.add(new Tour("Title", "DoubleTree", R.drawable.baseline_hotel_black_24dp));
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
